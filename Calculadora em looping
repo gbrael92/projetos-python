@@ -1,0 +1,41 @@
+while True:
+    valor_1 = int(input('Digite o valor 1:'))
+    valor_2 = int(input('Digite o valor 2:'))
+    print('escolha uma opção')
+    print('1 - soma')
+    print('2 - subtração')
+    print('3 - multiplicação')
+    print('4 - divisão')
+    print('5 - potenciação')
+    opção = input()
+    if opção == '1':
+        print('Resultado da soma', valor_1 + valor_2)
+    elif opção == '2':
+        print('Resultado da subtração: ', valor_1 - valor_2)
+    elif opção == '3':
+        print('Resultado da multiplicação: ', valor_1 * valor_2)
+    elif opção == '4':
+        print('Resultado da divisão: ', valor_1 / valor_2)
+    elif opção == '5':
+        print('Resultado da sua potenciação: ', valor_1 ** valor_2)
+    else:
+        print('opção inválida')
+
+    print('\n-----------------------------------')
+    print("Faça uma nova escolha")
+    print("1 - Escolher outros números/operações")
+    print("2 - Sair do programa")
+    
+    continuar = input("Digite 1 ou 2: ")
+
+    if continuar == "1":
+        print("\nLegal! Vamos de novo!\n")
+    elif continuar == "2":
+        print("Saindo do programa. Até logo!")
+    else:
+        print("Opção inválida! Como você digitou errado, vou fechar o programa por segurança. Até logo!")
+    
+ 
+ 
+ 
+ 
