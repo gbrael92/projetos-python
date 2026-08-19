@@ -1,0 +1,20 @@
+while True:
+    print('*' * 50)
+    print("Simulador para calculo de perda de vida")
+
+    quantidade_cigarros = int(input('Quantos cigarros você fuma/fumava por dia?:'))
+    quantidade_anos = int(input('Quantos anos você fumou?:'))
+
+    Perda = 10
+    dia = 1440
+
+    tempo = (quantidade_anos * 365) * quantidade_cigarros 
+    res_perda = tempo * Perda
+    dias_perdidos = res_perda /dia
+
+    print('O total de dias que você perdeu foi: ', dias_perdidos)
+
+    texto = input('Para fechar o programa digite sair ou pressione qualquer tecla para continuar')
+    if texto == 'sair':
+        print('fechando programa')
+        break
