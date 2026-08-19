@@ -1,0 +1,8 @@
+distância = float(input('Qual a distância deseja percorrer(km)?: '))
+
+if distância <= 200:
+    preço_passagem = distância * 0.50
+    print('O valor a pagar é: ', preço_passagem)
+else:
+    preço_passagem = distância * 0.45
+    print('O valor a pagar é: ', preço_passagem)
