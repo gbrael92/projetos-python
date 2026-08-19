@@ -1,0 +1,14 @@
+
+while True:
+    velocidade = int(input('Qual a velocidade do condutor?: '))
+
+    if velocidade > 80:
+        valor_da_multa = (velocidade - 80) * 5
+        print('O valor da sua multa é R$:' , valor_da_multa)
+    else:
+        print('Nenhuma multa para esse condutor')
+    texto = input('digite sair para fechar o programa ou qualquer tecla para continuar: ')
+
+    if texto == 'sair':
+        print('fechando programa')
+        break 
